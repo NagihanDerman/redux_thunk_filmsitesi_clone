@@ -1,4 +1,4 @@
-## Site de Présentation de Films
+## Netflix - Clone
 
 Ce projet est un site de présentation de films utilisant l'API populaire The Movie Database (TMDb) pour fournir aux spectateurs des informations détaillées sur les films. Il est développé en utilisant React et diverses bibliothèques auxiliaires.
 
@@ -25,4 +25,4 @@ https://developer.themoviedb.org/reference/intro/getting-started
 
 ### GIF
 
-<img src="" />
+<img src="./public/Redux-Thunk.gif" />
