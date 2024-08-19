@@ -8,10 +8,10 @@ import Error from "./Error";
 const Hero = () => {
   const { isLoading, movies, error } = useSelector((store) => store.movie);
 
-  // 0-19 arası rastgele sayı üret
+  // 0-19 arası rastgele sayı üretir
   const i = Math.floor(Math.random() * 20);
 
-  // rastgele üretilen index sırasındaki filme eriş
+  // rastgele üretilen index sırasındaki filme erişir
   const movie = movies[i];
 
   return (

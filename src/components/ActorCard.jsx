@@ -1,7 +1,7 @@
 import { baseImgUrl } from "./../utils/constants";
 
 const ActorCard = ({ actor }) => {
-  //eğer oyuncunun fotoğrafı yoksa varsayılan fotoğraf devreye girsin
+  //eğer oyuncunun fotoğrafı yoksa varsayılan fotoğraf basilir
   const url = !actor.profile_path
     ? "/default-ppp.jpg"
     : baseImgUrl + actor.profile_path;
